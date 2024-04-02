@@ -1,0 +1,51 @@
+.container div {
+    border: 5px solid rgb(0, 0, 0);
+
+}
+
+.item1 {
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+.item2 {
+    grid-area: sidebar;
+    background-color: rgb(111, 236, 209);
+}
+
+.item3 {
+    grid-area: content-1;
+    background-color: blueviolet;
+}
+
+.item4 {
+    grid-area: content-2;
+    background-color: blueviolet;
+}
+
+.item5 {
+    grid-area: content-3;
+    background-color: blueviolet;
+
+}
+
+.item6 {
+    grid-area: footer;
+    background-color: blueviolet;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    grid-template-areas: 'header header header'
+        'sidebar content-1 content-1'
+        'sidebar content-1 content-1'
+        'sidebar content-2 content-3'
+        'sidebar content-2 content-3'
+        'footer footer footer';
+    height: 500px;
+
+
+}
